@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+    body {
+      background-color: #f2f6ff;
+      margin: 0;
+      padding: 16px;
+    }
+
+    #form-heading {
+      font-size: 32px;
+      padding-top: 56px;
+      padding-bottom: 32px;
+    }
+
+    #social-wrapper {
+      background-color: #f2f6ff;
+      padding: 24px;
+    }
+
+    .social-icon {
+      width: 50px;
+      height: 50px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    form {
+      background-color: white;
+      text-align: center;
+      width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #ccc;
+    }
+
+    #input-wrapper {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    .input-box {
+      font-size: 18px;
+      padding-bottom: 12px;
+      margin-bottom: 36px;
+      border: 0;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+
+    }
+
+    .btn-submit {
+      background-color: #0056ff;
+      ;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 24px;
+      padding-right: 24px;
+      font-size: 18px;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div>
+      <h1 id="form-heading">Register</h1>
+    </div>
+    <div id="social-wrapper">
+      <img class="social-icon"
+        src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-512.png" alt="">
+      <img class="social-icon" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/facebook-512.png"
+        alt="">
+      <img class="social-icon" src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-512.png"
+        alt="">
+      <img class="social-icon"
+        src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-512.png"
+        alt="">
+    </div>
+
+    <div id="input-wrapper">
+      <div>
+        <input class="input-box" type="text" name="username" placeholder="Username" required maxlength="40">
+      </div>
+      <div>
+        <input class="input-box" type="email" name="email" placeholder="Email" required maxlength="80">
+      </div>
+      <div>
+        <input class="input-box" type="password" name="password" placeholder="Password" required maxlength="20">
+      </div>
+      <div>
+        <input class="input-box" type="password" name="Confirm-password" placeholder="Confirm Password" required
+          maxlength="20">
+      </div>
+    </div>
+    <div style="margin-bottom:50px;">
+      <input class="btn-submit" type="submit" value="Register">
+    </div>
+  </form>
+</body>
+
+</html>
